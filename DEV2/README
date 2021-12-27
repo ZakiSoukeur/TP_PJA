@@ -1,0 +1,12 @@
+This repository Dev2
+
+ members:
+
+# Soukeur Zakaria,
+# Necira Amrane
+
+Notes:
+=> you should change the path in the Server/ThreadedTask to a valid path to void getting FileNotFoundException.
+=> Classes without Thread: Server and Client.
+=> Classes with Thread (multiClient) : ThreadedServer and ThreadedTask.
+   Concerning the ThreadedServerserver you can use the Client class and just change the port to 9000,also you can use the telnet command from the cmd to get a multiple clients.
