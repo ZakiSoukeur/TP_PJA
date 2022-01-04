@@ -7,6 +7,9 @@ This repository Dev2
 
 Notes:
 => you should change the path in the Server/ThreadedTask to a valid path to void getting FileNotFoundException.
+=> There are only three commnds : list:(will show the content of the folder) get file_Name:(will open or read the a specific file if it's possible) exit: to quit.
+=> if there are folders on the main folder you don't have access to it's contents, means the files won't appear while you will use the list command.
+=> all the exceptions have been treated.
 => Classes without Thread: Server and Client.
 => Classes with Thread (multiClient) : ThreadedServer and ThreadedTask.
    Concerning the ThreadedServerserver you can use the Client class and just change the port to 9000,also you can use the telnet command from the cmd to get a multiple clients.
